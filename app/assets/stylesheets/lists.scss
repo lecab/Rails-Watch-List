@@ -1,0 +1,39 @@
+// Place all the styles related to the lists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+div {
+    background-color: #fff;
+    color: #172624;
+    font: 16px /170% Source Sans Pro,-apple-system,linkMacSystemFont,Helvetica Neue,Segoe UI,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    max-width: 100%;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+header.primary {
+    display: block;
+    font-size: 0;
+    overflow: visible;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+}
+
+* {
+    border: 0;
+    font: inherit;
+    font-style: normal;
+    font-size: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    quotes: none;
+    text-decoration: none;
+    vertical-align: baseline;
+}
